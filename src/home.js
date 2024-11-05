@@ -1,6 +1,7 @@
 export function display(){ 
     let content = document.querySelector("#content");
     content.textContent = '';
+    content.classList.remove("about");
 
     content.classList.add("home");
     let img = document.createElement("div");
