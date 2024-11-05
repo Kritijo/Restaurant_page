@@ -102,7 +102,7 @@ button:hover{
     display: grid;
     justify-content: center;
     align-items:center;
-    gap:3px;
+    gap:10px;
 }
 
 .icon{
