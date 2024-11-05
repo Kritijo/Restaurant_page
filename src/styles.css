@@ -48,6 +48,7 @@ button:hover{
     margin-bottom: 10px;
     overflow: auto;
     padding: 10px;
+    border:3px solid;
 }
 
 .home{
@@ -74,6 +75,7 @@ button:hover{
     height: 100%;
     display: grid;
     grid-template:repeat(6,1fr);
+    justify-content: center;
     align-items:center;
     gap:5px;
     font-size: clamp(15px, 2vw, 20px);
@@ -93,5 +95,21 @@ button:hover{
     border-radius: 5px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.about{
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    gap:3px;
+}
+
+.icon{
     justify-self: center;
+    height: 100%;
+    width: 30%;
+    background: url("./images/icon.png");
+    background-size : cover;
+    background-repeat: no-repeat;
 }
