@@ -2,7 +2,7 @@ export function display(){
     let content = document.querySelector("#content");
     content.textContent = '';
 
-    content.classList.remove("home");
+    content.classList.remove("home","about");
     
     let ul = document.createElement("ul");
     ul.classList.add("menu");
